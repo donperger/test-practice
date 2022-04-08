@@ -1,0 +1,31 @@
+{
+  "name": "test-practice",
+  "version": "1.0.0",
+  "description": "This project is all about get to know TDD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donperger/test-practice.git"
+  },
+  "author": "donperger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donperger/test-practice/issues"
+  },
+  "homepage": "https://github.com/donperger/test-practice#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "alphabet": "^1.0.0"
+  }
+}
